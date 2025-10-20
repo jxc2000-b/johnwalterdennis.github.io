@@ -257,12 +257,6 @@ a {
   align-items: start;
   margin: 16px;
 }
-#right-column {
-  grid-area: content;
-}
-.left-column {
-  grid-area: nav;
-}
 .navlinks-container {
   position: sticky;
   top: 16px;
@@ -333,6 +327,12 @@ a:hover, a:focus-visible {
     grid-template-columns: 1fr;
     grid-template-areas: "nav" "content";
     gap: 16px;
+  }
+  #right-column {
+    grid-area: content;
+  }
+  #left-column {
+    grid-area: nav;
   }
   #Right-column {
     justify-self: start;

@@ -48,13 +48,7 @@ section {
     margin: 16px;
 }
 
-#right-column {
-    grid-area: content;
-}
 
-.left-column {
-    grid-area: nav;
-}
 
 .navlinks-container {
     position: sticky;
@@ -162,6 +156,14 @@ a:focus-visible {
             "nav"
             "content";
         gap: 16px;
+    }
+
+    #right-column {
+        grid-area: content;
+    }
+
+    #left-column {
+        grid-area: nav;
     }
 
     #Right-column {
