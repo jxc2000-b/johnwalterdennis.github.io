@@ -5,5 +5,8 @@ package.json
 Photos
 node_modules
 .env
+<<<<<<< HEAD
 content/.DS_Store
 .DS_Store
+=======
+>>>>>>> 9de3841bef82505b4a370a6c4b964118895a1494
