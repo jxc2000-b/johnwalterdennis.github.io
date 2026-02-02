@@ -5,3 +5,5 @@ package.json
 Photos
 node_modules
 .env
+content/.DS_Store
+.DS_Store
